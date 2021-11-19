@@ -50,9 +50,9 @@ resource "aws_instance" "meierj-instance" {
     ]
   }
 
-  provisioner "local-exec" {
-    command = "./scripts/sync.sh"
-  }
+#  provisioner "local-exec" {
+#    command = "./scripts/sync.sh"
+#  }
 
   #
   # Super handy, you can specify source, or contents
