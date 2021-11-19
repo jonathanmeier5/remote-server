@@ -31,7 +31,7 @@ resource "aws_instance" "meierj-instance" {
     user        = "ubuntu"
     private_key = file("~/.ssh/aws")
     host        = self.public_ip
-    timeout     = "1m"
+    timeout     = "2m"
   }
 
 
